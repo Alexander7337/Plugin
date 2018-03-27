@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "New Products (my plugin)",
+  "SystemName": "Widgets.HomePageNewProducts",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "Me",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.HomePageNewProducts.dll",
+  "Description": "Custom plugin for new products"
+}
