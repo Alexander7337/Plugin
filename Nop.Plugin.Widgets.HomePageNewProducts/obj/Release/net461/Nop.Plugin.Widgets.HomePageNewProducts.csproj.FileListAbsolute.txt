@@ -1,0 +1,12 @@
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProducts\web.config
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProducts\Views\Web.config
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProducts\Views\Configure.cshtml
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProducts\Nop.Plugin.Widgets.HomePageNewProducts.dll
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Presentation\Nop.Web\Plugins\Widgets.HomePageNewProducts\Nop.Plugin.Widgets.HomePageNewProducts.pdb
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.csprojResolveAssemblyReference.cache
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.csproj.CoreCompileInputs.cache
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.AssemblyInfoInputs.cache
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.AssemblyInfo.cs
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.csproj.CopyComplete
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.dll
+C:\Users\Alexander7337\Documents\Visual Studio 2017\Projects\Nop\Plugins\Nop.Plugin.Widgets.HomePageNewProducts\obj\Release\net461\Nop.Plugin.Widgets.HomePageNewProducts.pdb

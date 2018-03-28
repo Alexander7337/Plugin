@@ -6,11 +6,13 @@ using Nop.Services.Configuration;
 using Nop.Services.Localization;
 using Nop.Services.Security;
 using Nop.Services.Stores;
+using Nop.Web.Framework;
 using Nop.Web.Framework.Controllers;
 using Nop.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Widgets.HomePageNewProducts.Contollers
 {
+    [Area(AreaNames.Admin)]
     public class WidgetsHomePageNewProductsController : BasePluginController
     {
         private readonly IWorkContext _workContext;
@@ -36,8 +38,8 @@ namespace Nop.Plugin.Widgets.HomePageNewProducts.Contollers
         [AuthorizeAdmin]
         public IActionResult Configure()
         {
-            if (!_permissionService.Authorize(StandardPermissionProvider.ManageWidgets))
-                return AccessDeniedView();
+            //if (!_permissionService.Authorize(StandardPermissionProvider.ManageWidgets))
+            //    return AccessDeniedView();
 
             //load settings for a chosen store scope
             var storeScope = this.GetActiveStoreScopeConfiguration(_storeService, _workContext);
@@ -67,11 +69,11 @@ namespace Nop.Plugin.Widgets.HomePageNewProducts.Contollers
         }
 
         [HttpPost]
-        [AuthorizeAdmin]
+        //[AuthorizeAdmin]
         public IActionResult Configure(ConfigurationModel model)
         {
-            if (!_permissionService.Authorize(StandardPermissionProvider.ManageWidgets))
-                return AccessDeniedView();
+            //if (!_permissionService.Authorize(StandardPermissionProvider.ManageWidgets))
+            //    return AccessDeniedView();
 
             //load settings for a chosen store scope
             var storeScope = this.GetActiveStoreScopeConfiguration(_storeService, _workContext);

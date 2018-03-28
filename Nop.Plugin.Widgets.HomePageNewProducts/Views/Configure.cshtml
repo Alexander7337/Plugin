@@ -12,12 +12,12 @@
 @await Component.InvokeAsync("StoreScopeConfiguration")
 
 
-<form asp-controller="HomePageNewProducts" asp-action="Configure" method="post">
+<form asp-controller="WidgetsHomePageNewProducts" asp-action="Configure" method="post">
     <div class="panel-group">
         <div class="panel panel-default">
-            <div class="panel-body">
+            @*<div class="panel-body">
                 @T("Plugins.Widgets.GoogleAnalytics.Instructions")
-            </div>
+            </div>*@
             <div class="panel-footer">
                 <input type="button" id="pre-configure-google-analytics" class="btn btn-primary" value="Pre-configure Google Analytics" />
                 <input type="button" id="pre-configure-universal-analytics" class="btn bg-aqua" value="Pre-configure Universal Analytics" />
@@ -40,10 +40,12 @@
                     </script>*@
             </div>
         </div>
+
         <div class="panel panel-default">
             <div class="panel-body">
-                @*@T("Plugins.Widgets.GoogleAnalytics.Note")*@
-                <div class="form-group">
+                @T("Plugins.Widgets.GoogleAnalytics.Note")
+
+                @*<div class="form-group">
                     <div class="col-md-3">
                         <nop-override-store-checkbox asp-for="GoogleId_OverrideForStore" asp-input="GoogleId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
                         <nop-label asp-for="GoogleId" />
@@ -82,7 +84,8 @@
                         <nop-editor asp-for="IncludingTax" />
                         <span asp-validation-for="IncludingTax"></span>
                     </div>
-                </div>
+                </div>*@
+
                 <div class="form-group">
                     <div class="col-md-3">
                         <nop-label asp-for="ZoneId" />
@@ -92,14 +95,16 @@
                         <span asp-validation-for="ZoneId"></span>
                     </div>
                 </div>
+
                 <div class="form-group">
                     <div class="col-md-3">
                         &nbsp;
                     </div>
                     <div class="col-md-9">
-                        @*<input type="submit" name="save" class="btn bg-blue" value="@T("Admin.Common.Save")" />*@
+                        <input type="submit" name="save" class="btn bg-blue" value="@T("Admin.Common.Save")" />
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
